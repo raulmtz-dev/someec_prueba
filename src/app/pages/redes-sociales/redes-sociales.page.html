@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar class="degradado" style="padding: 8px;">
+    <ion-buttons slot="start">
+      <ion-back-button style="--color:#C3CDD9" text="Atrás" defaultHref="/tabs/inicio"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="texto-toolbar bold-blanco">Redes Sociales</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="degradado">
+  <div class="datos-wrapper">
+    <ion-row>
+      <ion-col size = "12" class = "alinear-vertical">
+        <img src="../../../assets/SOMEEC_ICONO_REDES.png" alt="">
+      </ion-col>
+    </ion-row>
+    <ion-row style = "padding:6px">
+      <ion-col size = "12" class = "alinear-vertical">
+        <ion-text class = "texto-toolbar bold-blanco">Conecta con Nosotros</ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size = "12" class = "alinear-vertical">
+        <ion-text class = "ion-text-center texto-1" style = "color:#fff">Sociedad Mexicana de Electrofisiología y Estimulación Cardiaca A.C.</ion-text>
+      </ion-col>
+    </ion-row>
+  </div>
+  <ion-item [button]="true" style = "--border-style:none; --border-color:none; border-radius: 10px;" class = "fondo-blanco ion-margin">
+    <img slot="start" src="../../../assets/INSTAGRAM.png" alt="" style = "width: 45px; height: 45px;">
+    <ion-text class = "texto-toolbar" color = "secondary">Instagram</ion-text>
+  </ion-item>
+  <ion-item [button]="true" style = "--border-style:none; --border-color:none; border-radius: 10px;" class = "fondo-blanco ion-margin">
+    <img slot="start" src="../../../assets/FACEBOOK.png" alt="" style = "width: 45px; height: 45px;">
+    <ion-text class = "texto-toolbar" color = "secondary">Facebook</ion-text>
+  </ion-item>
+  <ion-item [button]="true" style = "--border-style:none; --border-color:none; border-radius: 10px;" class = "fondo-blanco ion-margin">
+    <img slot="start" src="../../../assets/X.png" alt="" style = "width: 45px; height: 45px;">
+    <ion-text class = "texto-toolbar" color = "secondary">X</ion-text>
+  </ion-item>
+  <ion-item [button]="true" style = "--border-style:none; --border-color:none; border-radius: 10px;" class = "fondo-blanco ion-margin">
+    <img slot="start" src="../../../assets/LINKEDIN.png" alt="" style = "width: 45px; height: 45px;">
+    <ion-text class = "texto-toolbar" color = "secondary">LinkedIn</ion-text>
+  </ion-item>
+  <!--ion-row class = "ion-padding ion-margin fondo-blanco" button [routerLink]="['/tabs/inicio/redes-sociales']">
+    <ion-col size = "2">
+      <img src="../../../assets/REDESSOCIALES.png" alt="" class = "full-width-img ion-no-padding">
+    </ion-col>
+    <ion-col size = "10" class=" alinear-vertical">
+      <ion-text color = "secondary" class="texto-2">
+        <strong>Redes Sociales</strong>
+      </ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row class = "ion-padding ion-margin fondo-blanco" button [routerLink]="['/tabs/inicio/redes-sociales']">
+    <ion-col size = "2">
+      <img src="../../../assets/REDESSOCIALES.png" alt="" class = "full-width-img ion-no-padding">
+    </ion-col>
+    <ion-col size = "10" class=" alinear-vertical">
+      <ion-text color = "secondary" class="texto-2">
+        <strong>Redes Sociales</strong>
+      </ion-text>
+    </ion-col>
+  </ion-row-->
+</ion-content>

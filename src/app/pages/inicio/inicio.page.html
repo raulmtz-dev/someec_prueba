@@ -1,0 +1,251 @@
+<ion-header> 
+  <ion-toolbar class = "degradado">
+    <ion-grid class="ion-padding-top" >
+      <ion-row class = "padding-de-app">
+        <ion-col class = "ion-no-padding"> 
+          <img src="../../../assets/SOMEECBLANCO.svg" alt="" class = "full-width-img ion-no-padding">
+        </ion-col>
+      </ion-row>
+    </ion-grid>   
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" style = "height: 100%;">
+  <!--div id="gesture-catcher" style="position: absolute; top: 0; left: 0; right: 0; height: 100%; z-index: 10;"></div-->
+
+  <ion-grid class="ion-no-padding secondary-bg">
+    <ion-row class="ion-align-items-center ion-justify-content-center ion-padding">
+      <ion-col class="ion-text-center">
+        <ion-text class="bold-blanco texto-1">
+          <strong>Últimas Noticias</strong>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <!--PRIMERA VERSIÓN ORIGINAL SLIDER-->
+  <!--swiper-container
+  pagination="true"
+  slides-per-view="1"
+  centeredSlides="true"
+  centeredSlidesBounds="true"
+  loop="true"
+  spaceBetween="10"
+>
+    <swiper-slide>
+      <ion-grid class = "ion-no-padding fondo-blanco ion-no-margin full-width-img">
+        <ion-row class = "ion-no-padding">
+          <ion-col>
+            <div class="slide-image" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bf/Webb%27s_First_Deep_Field.jpg');"></div>
+          </ion-col>
+        </ion-row>
+        <ion-row class = "ion-no-padding">
+          <ion-col>
+            <ion-button class = "full-width-img ion-no-padding ion-no-margin no-radius texto-1" color = "tertiary">Ver Más</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-grid class = "ion-no-padding fondo-blanco ion-no-margin full-width-img">
+        <ion-row class = "ion-no-padding">
+          <ion-col>
+            <div class="slide-image" style="background-image: url('https://cdn.mos.cms.futurecdn.net/AoWXgnHSxAAPxqymPQMQYL-1200-80.jpg');"></div>
+          </ion-col>
+        </ion-row>
+        <ion-row class = "ion-no-padding">
+          <ion-col>
+            <ion-button class = "full-width-img ion-no-padding ion-no-margin no-radius texto-1" color = "tertiary">Ver Más</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </swiper-slide>
+    <swiper-slide>
+      <ion-grid class = "ion-no-padding fondo-blanco ion-no-margin full-width-img">
+        <ion-row class = "ion-no-padding">
+          <ion-col>
+            <div class="slide-image" style="background-image: url('https://wallpapers.com/images/featured/space-sjryfre8k8f6i3ge.jpg');"></div>
+          </ion-col>
+        </ion-row>
+        <ion-row class = "ion-no-padding">
+          <ion-col>
+            <ion-button class = "full-width-img ion-no-padding ion-no-margin no-radius texto-1" color = "tertiary">Ver Más</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </swiper-slide>
+  </swiper-container-->
+
+  <!--SEGUNDA VERSIÓN SLIDER-->
+  <!--swiper-container
+  [slidesPerView]="1.125"
+  [centeredSlides]="true"
+  [loop]="true"
+  [pagination]="true"
+  id="mySwiper"
+  class = "secondary-bg"
+  [spaceBetween]="10"
+>
+  <swiper-slide>
+    <div class="slide-wrapper secondary-bg">
+      <ion-grid class="ion-no-padding fondo-blanco ion-no-margin secondary-bg">
+        <ion-row class="ion-no-padding secondary-bg">
+          <ion-col>
+            <div class="slide-image"
+              style="border-radius: 10px;background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTyYrXKhVM4Mg_MBraI6H2Lrh-P3REUhnjtDxi8jWW4A&s&ec=72940545'); height: 210px; background-size: cover; background-position: center;">
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide>
+    <div class="slide-wrapper secondary-bg">
+      <ion-grid class="ion-no-padding fondo-blanco ion-no-margin secondary-bg">
+        <ion-row class="ion-no-padding secondary-bg">
+          <ion-col>
+            <div class="slide-image"
+              style="border-radius: 10px;background-image: url('https://image.pbs.org/contentchannels/Gu7QxOA-background-B9H76Or.jpg'); height: 210px; background-size: cover; background-position: center;">
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </swiper-slide>
+
+  <swiper-slide>
+    <div class="slide-wrapper secondary-bg">
+      <ion-grid class="ion-no-padding fondo-blanco ion-no-margin secondary-bg">
+        <ion-row class="ion-no-padding secondary-bg">
+          <ion-col>
+            <div class="slide-image"
+              style="border-radius: 10px;background-image: url('https://wallpapers.com/images/featured/space-sjryfre8k8f6i3ge.jpg'); height: 210px; background-size: cover; background-position: center;">
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </swiper-slide>
+  
+  <swiper-slide>
+    <div class="slide-wrapper secondary-bg">
+      <ion-grid class="ion-no-padding fondo-blanco ion-no-margin secondary-bg">
+        <ion-row class="ion-no-padding secondary-bg">
+          <ion-col>
+            <div class="slide-image"
+              style="border-radius: 10px;background-image: url('https://dwg31ai31okv0.cloudfront.net/images/Article_Images/ImageForArticle_549_17288689857007544.jpg'); height: 210px; background-size: cover; background-position: center;">
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </swiper-slide>
+</swiper-container-->
+
+<!--1.125 al slidesperview-->
+<swiper-container
+  [slidesPerView]="1.1001"
+  [centeredSlides]="true"
+  autoplay="true" 
+  autoplay-delay="3500"
+  [loop]="true"
+  class="borde-menu"
+  [spaceBetween]="10" style = "padding-top:16px; padding-bottom:16px; background-color: #F2F2F2;">
+    <swiper-slide>
+      <div class="slide-wrapper">
+        <div class="overlay"></div>
+        <div class="badge">08 MAY 2025</div>
+        <div class="slide-image"
+          style="border-radius: 10px;background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTyYrXKhVM4Mg_MBraI6H2Lrh-P3REUhnjtDxi8jWW4A&s&ec=72940545'); height: 210px; background-size: cover; background-position: center;">
+        </div>
+      </div>
+    </swiper-slide>
+
+    <swiper-slide>
+      <div class="slide-wrapper">
+        <div class="overlay"></div>
+        <div class="badge">08 MAY 2025</div>
+        <div class="slide-image"
+          style="border-radius: 10px;background-image: url('https://image.pbs.org/contentchannels/Gu7QxOA-background-B9H76Or.jpg'); height: 210px; background-size: cover; background-position: center;">
+        </div>
+      </div>
+    </swiper-slide>
+
+    <swiper-slide>
+      <div class="slide-wrapper">
+        <div class="overlay"></div>
+        <div class="badge">08 MAY 2025</div>
+        <div class="slide-image"
+          style="border-radius: 10px;background-image: url('https://wallpapers.com/images/featured/space-sjryfre8k8f6i3ge.jpg'); height: 210px; background-size: cover; background-position: center;">
+        </div>
+      </div>
+    </swiper-slide>
+    
+    <swiper-slide>
+      <div class="slide-wrapper">
+        <div class="overlay"></div>
+        <div class="badge">08 MAY 2025</div>
+        <div class="slide-image"
+          style="border-radius: 10px;background-image: url('https://dwg31ai31okv0.cloudfront.net/images/Article_Images/ImageForArticle_549_17288689857007544.jpg'); height: 210px; background-size: cover; background-position: center;">
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper-container>
+
+
+
+  <ion-grid class = "ion-no-padding fondo-blanco">
+    <ion-row class = "ion-padding borde-menu" button [routerLink]="['/tabs/inicio/eventos']">
+      <ion-col size = "2">
+        <img src="../../../assets/EVENTOS.png" alt="" class = "full-width-img ion-no-padding">
+      </ion-col>
+      <ion-col size = "10" class="alinear-vertical">
+        <ion-text color = "secondary" class="texto-2">
+          <strong>Eventos</strong>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class = "ion-padding borde-menu" button [routerLink]="['/tabs/inicio/mesa-directiva']">
+      <ion-col size = "2">
+        <img src="../../../assets/MESADIRECTIVA.png" alt="" class = "full-width-img ion-no-padding">
+      </ion-col>
+      <ion-col size = "10" class=" alinear-vertical">
+        <ion-text color = "secondary" class="texto-2">
+          <strong>Mesa Directiva</strong>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class = "ion-padding borde-menu" button [routerLink]="['/tabs/inicio/redes-sociales']">
+      <ion-col size = "2">
+        <img src="../../../assets/REDESSOCIALES.png" alt="" class = "full-width-img ion-no-padding">
+      </ion-col>
+      <ion-col size = "10" class=" alinear-vertical">
+        <ion-text color = "secondary" class="texto-2">
+          <strong>Redes Sociales</strong>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class = "ion-padding borde-menu" button [routerLink]="['/tabs/inicio/contacto']">
+      <ion-col size = "2">
+        <img src="../../../assets/CONTACTO.png" alt="" class = "full-width-img ion-no-padding">
+      </ion-col>
+      <ion-col size = "10" class=" alinear-vertical">
+        <ion-text color = "secondary" class="texto-2">
+          <strong>Contacto</strong>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+    <ion-row class = "ion-padding" button [routerLink]="['/tabs/inicio/alianzas']">
+      <ion-col size = "2">
+        <img src="../../../assets/ALIANZAS.png" alt="" class = "full-width-img ion-no-padding">
+      </ion-col>
+      <ion-col size = "10" class=" alinear-vertical">
+        <ion-text color = "secondary" class="texto-2">
+          <strong>Alianzas</strong>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+

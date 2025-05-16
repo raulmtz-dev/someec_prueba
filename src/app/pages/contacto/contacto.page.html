@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar class="degradado" style="padding: 8px;">
+    <ion-buttons slot="start">
+      <ion-back-button style="--color:#C3CDD9" text="Atrás" defaultHref="/tabs/inicio"></ion-back-button>
+    </ion-buttons>
+    <ion-title class="texto-toolbar bold-blanco">Contacto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="fondo-blanco" force-overscroll="false" scroll-events="false">
+
+  <div style = "width: 100%; height:150px; background-image: url('../../../assets/SOMEECCONTACTO.png'); background-position: center center; background-repeat: no-repeat"></div>
+
+  <div class="wrapper-seccion" style = "margin-left: 16px; margin-top:-60px; ">
+    <img src="../../../assets/SOMEEC_ICONO_CONTACTO.png" alt="" style = "box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); border-radius: 16px;">
+  </div>
+
+  <!--div class="wrapper-seccion">
+    <ion-item style = "--border-style:none; --border-color:none; display: flex; flex-direction: column; align-items: flex-start; padding-bottom: 40px" class = "ion-margin fondo-blanco borde-menu">
+      <img slot="start" src="../../../assets/SOMEEC_ICONO_REDES.png" alt="" style = "width: 45px; height: 45px;">
+      <ion-text class = "texto-toolbar" color = "secondary"><strong>Sociedad Mexicana de Electrofisiología y Estimulación Cardiaca A.C.</strong></ion-text>
+    </ion-item>
+  </div-->
+
+  <div class="wrapper-seccion">
+  <ion-row class = "ion-margin">
+    <ion-col size = "12">
+      <ion-text class = "texto-2" color = "secondary"><strong>Contáctanos</strong></ion-text>
+    </ion-col>
+  </ion-row>
+
+  <ion-item [button]="true" style = "--border-style:none; --border-color:none;" class = "fondo-blanco">
+    <img slot="start" src="../../../assets/TELEFONO.png" alt="" style = "width: 45px; height: 45px;">
+    <ion-text class = "texto-toolbar" color = "secondary">55 2349 0774</ion-text>
+  </ion-item>
+  <ion-item [button]="true" style = "--border-style:none; --border-color:none;" class = "fondo-blanco">
+    <img slot="start" src="../../../assets/WHATSAPP.png" alt="" style = "width: 45px; height: 45px;">
+    <ion-text class = "texto-toolbar" color = "secondary">WhatsApp</ion-text>
+  </ion-item>
+  <ion-item [button]="true" style = "--border-style:none; --border-color:none;" class = "fondo-blanco">
+    <img slot="start" src="../../../assets/MAIL.png" alt="" style = "width: 45px; height: 45px;">
+    <ion-text class = "texto-toolbar" color = "secondary">informacion&#64;someec.mx</ion-text>
+  </ion-item>
+  <ion-item [button]="true" style = "--border-style:none; --border-color:none;" class = "fondo-blanco">
+    <img slot="start" src="../../../assets/WEB.png" alt="" style = "width: 45px; height: 45px;">
+    <ion-text class = "texto-toolbar" color = "secondary">Nuestro Sitio Web</ion-text>
+  </ion-item>
+  </div>
+
+  <div class="wrapper-seccion">
+  <ion-row class = "ion-margin">
+    <ion-col size = "12">
+      <ion-text class = "texto-2" color = "secondary"><strong>Nuestras Oficinas</strong></ion-text>
+    </ion-col>
+  </ion-row>
+
+  <ion-card>
+    <div style = 'background-image: url("https://miro.medium.com/v2/resize:fit:548/1*E9u3Xd8QM_Ttlr3Ytqn0Tw.png");' class="slide-image"></div>
+
+    <ion-card-content>
+      <div class="icon-text">
+        <ion-icon name="location" style = "flex-shrink: 0;"></ion-icon>
+        <span>Camino Santa Teresa 1055 Int 605 Col. Héroes de Padierna Del. Tlalpan C.p 10700 CDMX</span>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  </div>
+
+</ion-content>
